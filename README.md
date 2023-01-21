@@ -1,6 +1,6 @@
 # Проект: mesto-react
 
-- [Ссылка на githab](https://dmitrysavelev.github.io/mesto/)
+- [Ссылка на githab](https://dmitrysavelev.github.io/mesto-react/)
 
 React — это JavaScript-библиотека для разработки пользовательского интерфейса.
 

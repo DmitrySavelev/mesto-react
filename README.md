@@ -16,9 +16,9 @@ React — это JavaScript-библиотека для разработки п�
 
 **Команды для сборки и запуска проекта**
 
-npx create-react-app my-app
-cd my-app
-npm start
+* npx create-react-app mesto-react
+* cd mesto-react
+* npm start
 
 **Использованные технологии**
 

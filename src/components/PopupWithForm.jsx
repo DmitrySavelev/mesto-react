@@ -5,7 +5,7 @@ const PopupWithForm = ({
   title,
   onClose,
   children,
-  onSubmit
+  onSubmit,
 }) => {
   return (
     <section className={`popup popup_${name} ${isOpen ? "popup_opened" : ""}`}>
@@ -20,7 +20,6 @@ const PopupWithForm = ({
           onSubmit={onSubmit}
           name="popupForm"
           className={`popup__form popup__form_place${name}`}
-          noValidate
         >
           <h2 className={`popup__title-${name}`}>{title}</h2>
           {children}

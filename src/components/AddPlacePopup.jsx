@@ -16,6 +16,8 @@ const AddPlacePopup = (props) => {
   function handleSubmit(e) {
     e.preventDefault();
     props.onAddPlace({ name, link });
+    setName('');
+    setLink('');
   }
 
   return (
@@ -28,6 +30,7 @@ const AddPlacePopup = (props) => {
     >
       <label className="popup__form-field">
         <input
+          value={name}
           name="name"
           type="text"
           id="name-place-input"
@@ -35,19 +38,18 @@ const AddPlacePopup = (props) => {
           placeholder="Название"
           minLength="2"
           maxLength="30"
-          required
           onChange={handleChangeName}
         />
         <span className="popup__error name-place-input-error"></span>
       </label>
       <label className="popup__form-field">
         <input
+          value={link}
           name="link"
           type="url"
           id="url-input-card"
           className="popup__input popup__link-input-place"
           placeholder="Ссылка на картинку"
-          required
           onChange={handleChangeLink}
         />
         <span className="popup__error url-input-card-error"></span>

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CurrentUserContext } from "../contexts/CurrentUserContext";
-import "../index.css";
+
 
 function Card({ card, onCardClick, onCardLike, onCardDelete }) {
   const CurrentUser = useContext(CurrentUserContext);
@@ -22,7 +22,6 @@ function Card({ card, onCardClick, onCardLike, onCardDelete }) {
   }
 
   return (
-    <div className="App">
       <li className="elements__list">
         <div className="elements__wrapper">
           <div
@@ -52,7 +51,6 @@ function Card({ card, onCardClick, onCardLike, onCardDelete }) {
           </div>
         </div>
       </li>
-    </div>
   );
 }
 

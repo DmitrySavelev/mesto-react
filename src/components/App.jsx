@@ -79,9 +79,9 @@ function App() {
       .editProfile(card)
       .then((data) => {
         setCurrentUser(data);
+        closeAllPopups();
       })
       .catch((error) => console.log(error));
-    closeAllPopups();
   }
 
   function handleAddPlaceSubmit(card) {
@@ -89,9 +89,9 @@ function App() {
       .addNewCard(card)
       .then((newCard) => {
         setCards([newCard, ...cards]);
+        closeAllPopups();
       })
       .catch((error) => console.log(error));
-    closeAllPopups();
   }
 
   function handleUpdateAvatar(card) {
@@ -99,9 +99,9 @@ function App() {
       .updateAvatar(card.avatar)
       .then((data) => {
         setCurrentUser(data);
+        closeAllPopups();
       })
       .catch((error) => console.log(error));
-    closeAllPopups();
   }
 
   function closeAllPopups() {

@@ -14,7 +14,7 @@ const EditAvatarPopup = (props) => {
 
   useEffect(() => {
     avatarRef.current.value = "";
-  }, [props.onClose]);
+  }, [props.isOpen]);
 
   return (
     <PopupWithForm

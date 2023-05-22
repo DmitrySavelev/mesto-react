@@ -1,6 +1,6 @@
 # Проект: mesto-react
 
-- [Ссылка на github](https://github.com/DmitrySavelev/mesto-react)
+[Ссылка на github](https://github.com/DmitrySavelev/mesto-react)
 
 ### [DEMO](https://dmitrysavelev.github.io/mesto-react/)
 

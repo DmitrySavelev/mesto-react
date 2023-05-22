@@ -1,4 +1,4 @@
-# Проект: mesto-react
+# Проект: mesto-rea
 
 - [Ссылка на github](https://github.com/DmitrySavelev/mesto-react)
 
